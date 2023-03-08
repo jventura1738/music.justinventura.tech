@@ -2,13 +2,14 @@ import React from "react";
 
 import Nav from "./Nav";
 import Footer from "./Footer";
+import TopReleases from "./TopReleases/TopReleases";
 
 function Home() {
   return (
-    <div className="flex flex-col h-screen max-w-3xl mx-auto">
+    <div className="mx-auto flex h-screen max-w-4xl flex-col">
       <Nav />
       <div id="top-songs" className="flex-1 outline">
-        <h2>Top Songs</h2>
+        <TopReleases />
       </div>
       <div className="flex-1 outline">
         <h2>Highlighted Previews</h2>

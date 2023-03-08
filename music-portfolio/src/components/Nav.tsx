@@ -1,6 +1,4 @@
 // Navbar file:
-import { Link } from "react-router-dom";
-
 import { SiApplemusic, SiSpotify } from "react-icons/si";
 
 function Nav() {
